@@ -1,1 +1,0 @@
-bool IsSubArray(int array[], int size_of_array, int sub_array[], int size_of_sub_array);
