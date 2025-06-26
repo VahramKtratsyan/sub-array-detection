@@ -1,4 +1,6 @@
-bool IsSubArray(int array[], int size_of_array, int sub_array[], int size_of_sub_array)
+#include "../header/sub_array.hpp"
+
+bool isSubArray(int array[], int size_of_array, int sub_array[], int size_of_sub_array)
 {
     bool res = false;
     if (size_of_sub_array > size_of_array)
